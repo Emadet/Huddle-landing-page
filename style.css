@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/bg-desktop.svg);
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+}
+
+header >img{
+    width: 10rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.contents{
+    display: flex;
+    margin: 4rem 3rem
+}
+
+.huddle{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: white;
+}
+
+.huddle h1{
+    font-size: 3rem;
+}
+
+.huddle button{
+    margin-top: 3rem;
+    width: 30%;
+    padding: 0.8rem 1.5rem; 
+    text-align: center;
+    color:hsl(257, 40%, 49%);
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 2px 7px rgb(0, 0, 0, 0);
+}
+
+
